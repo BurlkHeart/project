@@ -1,0 +1,21 @@
+.mui-scroll{
+    text-align: center;
+}
+.mui-scroll input{
+    width: 96%;
+
+}
+.mui-scroll input:nth-child(1){
+    margin-top: 10px;
+}
+
+.mui-scroll a{
+    display: block;
+    width: 96%;
+    height: 30px;
+    line-height: 30px;
+    background-color: #2aabd2;
+    color: white;
+    margin: 15px auto;
+    border-radius: 3px;
+}

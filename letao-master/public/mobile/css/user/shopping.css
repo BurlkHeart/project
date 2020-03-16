@@ -1,0 +1,92 @@
+.title{
+    width: 100%;
+    color: #333333;
+    font-size: 12px;
+}
+.info{
+    width: 100%;
+    margin-top: 20px;
+}
+.info .price{
+    color: red;
+}
+.info .oldPrice{
+    color: #666666;
+    font-size: 8px;
+    text-decoration: line-through;
+}
+.info .number{
+    float: right;
+}
+.size{
+    font-size: 10px;
+}
+.mui-slider-handle input{
+    display: block;
+    text-align: center;
+    margin-top: -20px;
+    margin-left: 15px;
+}
+
+/*尺码*/
+.p_size{
+    width: 100%;
+    padding: 5px 0 10px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+}
+.p_size .btn_size{
+    border: 1px solid #ccc;
+    font-size: 16px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 8px;
+}
+.p_num{
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.p_num span{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 7px 11px;
+}
+.p_num input{
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.now1 {
+    background-color: #F5662C;
+}
+
+.cart_footer{
+    position: absolute;
+    height: 30px;
+    width: 100%;
+    bottom: 55px;
+    left: 0;
+    border-top: 1px solid #0f0f0f;
+    color: red;
+    font-size: 14px;
+    padding-left: 20px;
+}
+.cart_footer .cart_footer-price{
+    line-height: 30px;
+}
+.cart_footer .cart_footer-btn{
+    font-weight: bold;
+    color: white;
+    text-align: center;
+    position: absolute;
+    right: 0;
+    background-color: red;
+    border: 1px solid red;
+}

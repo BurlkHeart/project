@@ -1,0 +1,89 @@
+.p_text{
+    width: 100%;
+}
+.p_text p{
+    font-size: 14px;
+    color: black;
+}
+/*价格*/
+.p_price{
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.p_price span{
+    font-size: 12px;
+}
+.p_price b{
+    font-size: 20px;
+    color: red;
+    padding: 0 5px;
+}
+.p_price s{
+    color: #666;
+    font-size: 12px;
+}
+
+/*尺码*/
+.p_size{
+    width: 100%;
+    padding: 5px 0 10px 0;
+    border-bottom: 1px solid #ccc;
+    font-size: 12px;
+}
+.p_size .btn_size{
+    border: 1px solid #ccc;
+    font-size: 16px;
+    text-align: center;
+    padding: 2px;
+    margin-top: 8px;
+}
+.p_num{
+    width: 100%;
+    font-size: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid #ccc;
+}
+.p_num span{
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ccc;
+    padding: 7px 11px;
+}
+.p_num input{
+    padding: 0;
+    margin: 0;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.now{
+    background-color: #F5662C;
+}
+.lt_footer a{
+    display: block;
+    width: 45px;
+}
+.lt_footer a span{
+    display: block;
+    width: 45px;
+    height: 45px;
+    color: black;
+    font-size: 30px;
+}
+.lt_footer input:nth-child(1){
+    width: 40%;
+}
+.lt_footer input:nth-child(2){
+    width: 40%;
+}
+.lt_footer input{
+    float: right;
+    height: 38px;
+    margin-right: 3px;
+    color: #fff;
+}
+

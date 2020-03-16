@@ -1,0 +1,14 @@
+.message-btn{
+    width: 96%;
+    position: relative;
+    top: 15px;
+}
+.mui-media-body p{
+    text-align: left;
+}
+.mui-scroll{
+    text-align: center;
+}
+.mui-scroll-wrapper{
+    background-color: #F0F0F0;
+}

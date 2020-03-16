@@ -1,0 +1,47 @@
+.lt_search{
+    margin: 10px 0;
+    padding: 0 10px;
+}
+.lt_search form{
+    position: relative;
+}
+.lt_search .search_input{
+    height: 30px;
+    line-height: 30px;
+    border: 1px solid #006699;
+    font-size: 12px;
+    padding-left: 10px;
+    margin: 0;
+}
+
+.lt_search .search_btn{
+    position: absolute;
+    right: 0;
+    top: 0;
+    height: 30px;
+    width: 60px;
+    background-color: #006699;
+    color: #fff;
+    border: 1px solid #006699;
+    border-radius: 0 5px 5px 0;
+}
+
+.lt_commodity{
+    height: 30px;
+    width: 100%;
+    background-color: rgb(227,227,227);
+    position: absolute;
+}
+
+.lt_commodity .lt_commodity_1{
+    width: 25%;
+    height: 100%;
+    float: left;
+    font-size: 12px;
+    line-height: 30px;
+    text-align: center;
+}
+
+.lt_commodity .lt_commodity_1.now{
+    color: orange;
+}
