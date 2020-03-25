@@ -1,0 +1,215 @@
+/*第三屏*/
+a:visited {
+    text-decoration: none;
+}
+a:visited {
+    text-decoration: none;
+}
+a {
+    color: #434343;
+    text-decoration: none;
+}
+a {
+    color: #337ab7;
+    text-decoration: none;
+}
+a {
+    background-color: transparent;
+}
+b, strong {
+    font-weight: 700;
+}
+.section_three {
+    background: url(../Images/03.jpg) no-repeat center;
+    background-size: cover;
+    color: #fff;
+}
+.fp-section {
+    position: relative;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.section_three .container {
+    padding-top: 60px;
+}
+@media (min-width: 1280px){
+    .container {
+        width: 1200px!important;
+    }
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+.fuwu_tl {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+}
+.touming {
+    opacity: 0;
+}
+.fuwu_tl_small {
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 0px;
+}
+.touming {
+    opacity: 0;
+}
+.fuwu_tl_text {
+    text-align: center;
+    line-height: 20px;
+}
+.touming {
+    opacity: 0;
+}
+.fuwu_img_main {
+    position: relative;
+}
+.clearfix {
+    display: block;
+}
+.fuwu_img_con {
+    padding: 0px 65px;
+}
+@media (max-width: 767px){
+    .fuwu_img_con {
+        padding: 0px 5px;
+    }
+}
+.fuwu_img_con_main {
+    display: block;
+    margin-top: 30px;
+    position: relative;
+    z-index: 660;
+}
+.touming {
+    opacity: 0;
+}
+@media (max-width: 767px){
+    .fuwu_tl {
+        font-size: 16px;
+    }
+}
+.fuwuimg_q {
+    width: 100%;
+    vertical-align: middle;
+}
+.fuwu_img_con_main {
+    display: block;
+    margin-top: 30px;
+    position: relative;
+    z-index: 660;
+}
+.touming {
+    opacity: 1;
+}
+.fuwu_tl_small_lf {
+    display: inline-block;
+    background: url(../Images/index_11.png) no-repeat;
+    width: 105px;
+    height: 8px;
+}
+.fuwu_tl_small_rt {
+    display: inline-block;
+    background: url(../Images/index_13.png) no-repeat;
+    width: 105px;
+    height: 8px;
+}
+.fuwu_btn {
+    display: block;
+    background: #da2c30;
+    line-height: 40px;
+    border-radius: 10px;
+    color: #fff;
+    font-size: 22px;
+    text-align: center;
+    margin-top: 30px;
+}
+.fuwu_hover {
+    position: absolute;
+    left: 0px;
+    top: 30px;
+    width: 100%!important;
+    background: url(../Images/fuwubg.png) no-repeat center;
+    background-size: cover;
+    max-height: 100%;
+    overflow: hidden;
+    opacity: 0;
+    z-index: -1;
+    transition: 1s all;
+    -webkit-transition: 1s all;
+}
+@media (max-width: 767px){
+    .fuwu_hover img {
+        width: 35%!important;
+    }
+}
+.fuwu_hover img {
+    width: 22%;
+    vertical-align: middle;
+}
+.left {
+    float: left;
+}
+@media (max-width: 767px){
+    .fuwu_hover_text {
+        width: 65%;
+    }
+}
+@media (max-width: 767px){
+    .fuwu_hover_text {
+        font-size: 9px;
+        line-height: 16px;
+    }
+}
+@media (max-width: 767px){
+    .fuwu_hover_text {
+        padding: 10px;
+    }
+}
+.fuwu_hover_text {
+    width: 78%;
+    padding: 34px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 25px;
+}
+@media (max-width: 767px){
+    .fuwu_hover_text_tl {
+        font-size: 12px;
+        margin-bottom: 5px;
+    }
+}
+.fuwu_hover_text_tl {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+@media (max-width: 767px){
+    .fuwu_hover_text_con {
+        height: 80px;
+        overflow: hidden;
+    }
+}
+@media (max-width: 767px){
+    .fuwu_btn {
+        font-size: 12px;
+        line-height: 25px;
+    }
+}
+.fuwu_btn:hover {
+    background: #fff;
+    opacity: 0.5;
+    color: #da2c30;
+}
+.xian {
+    opacity: 1;
+    z-index: 1000;
+}
+
+.container3{
+    display: none;
+}

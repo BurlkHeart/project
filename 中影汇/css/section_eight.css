@@ -1,0 +1,211 @@
+.section_eight{
+    color: #fff;
+    background: url("../Images/08.jpg") no-repeat center;
+    background-size: cover;
+}
+.section_eight .container{
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 60px;
+    padding-right: 0px;
+    padding-left: 0px;
+    display: none;
+}
+.section_eight .fuwu_tl{
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 3%;
+    animation-delay: 0.2s;
+}
+.section_eight .fuwu_tl_small{
+    text-align: center;
+    font-size: 14px;
+    padding: 15px 0px;
+    animation-delay: 0.4s;
+}
+.section_eight .fuwu_tl_small .fuwu_tl_small_lf{
+    display: inline-block;
+    background: url("../Images/index_11.png") no-repeat;
+    width: 105px;
+    height: 8px;
+}
+.section_eight .fuwu_tl_small .fuwu_tl_small_rt{
+    display: inline-block;
+    background: url("../Images/index_13.png") no-repeat;
+    width: 105px;
+    height: 8px;
+}
+.section_eight .fuwu_tl_text{
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    animation-delay: 0.6s;
+}
+.section_eight .fuwu_tl_text{
+    text-align: center;
+    line-height: 20px;
+    font-size: 12px;
+    animation-delay: 0.6s;
+}
+.section_eight .lianxi_main {
+    font-size: 14px;
+    margin: 8% 0px;
+}
+.section_eight .erw_main {
+    display: inline-block;
+    text-align: center;
+}
+.section_eight .erw_tl {
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: 6px;
+    text-align: left;
+}
+.section_eight .erw_tl_eng {
+    font-size: 14px;
+    text-align: left;
+    letter-spacing: 2px;
+    padding: 10px 0px;
+}
+.section_eight .erw img {
+    width: 50%;
+    display: inline-block;
+    max-width: 101px;
+}
+.section_eight .footer_tel {
+    font-size: 30px;
+    font-weight: bold;
+    color: rgb(218, 44, 48);
+    margin-bottom: 30px;
+}
+.section_eight .ly_gp {
+    margin-bottom: 10px;
+}
+.section_eight .ly_gp span {
+    display: block;
+    width: 70px;
+    line-height: 26px;
+}
+.section_eight .ly_input {
+    padding-left: 80px;
+}
+.section_eight .ly_input input {
+    width: 80%;
+    height: 26px;
+    line-height: 16px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+    max-width: 150px;
+    padding: 5px 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    border-radius: 20px;
+    background: none;
+}
+.section_eight .ly_gp textarea {
+    width: 100%;
+    height: 45px;
+    line-height: 16px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+    resize: none;
+    max-width: 200px;
+    padding: 10px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+    border-image: initial;
+    border-radius: 10px;
+    background: none;
+    overflow: auto;
+    outline:none;
+}
+.section_eight .queren {
+    padding-left: 80px;
+}
+.section_eight .queren input {
+    line-height: 26px;
+    width: 120px;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    -webkit-appearance: none;
+    border-width: initial;
+    border-style: none;
+    border-color: initial;
+    border-image: initial;
+    background: rgb(218, 44, 48);
+    border-radius: 20px;
+}
+.section_eight .index_jiaobu {
+    position: absolute;
+    width: 100%;
+    left: 0px;
+    bottom: 10%;
+    text-align: center;
+    padding: 0px 10px;
+}
+.section_eight .index_jiaobu_link {
+    font-size: 18px;
+}
+.section_eight .index_jiaobu_link a {
+    color: rgb(255, 255, 255);
+    display: inline-block;
+}
+.section_eight .banquan {
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+
+@media (min-width: 1280px){
+    .section_eight .container {
+        width: 1200px;
+    }
+}
+@media (max-width: 1279px){
+    .section_eight .container {
+        width: 90%;
+    }
+}
+@media (max-width: 767px){
+    .section_eight .fuwu_tl {
+        display: none;
+        font-size: 16px;
+    }
+    .section_eight .fuwu_tl_small {
+        display: none;
+    }
+    .section_eight .fuwu_tl_text {
+        display: none;
+    }
+    .section_eight .erw {
+        display: none;
+    }
+    .section_eight .footer_tel {
+        font-size: 20px;
+        margin-bottom: 10px;
+    }
+    .section_eight .ly {
+        margin-top: 20px;
+    }
+    .section_eight .index_jiaobu {
+        bottom: 10px;
+    }
+    .section_eight .index_jiaobu_link {
+        font-size: 10px;
+    }
+    .section_eight .banquan {
+        font-size: 8px;
+    }
+}
+
+
+
+input{
+    outline:none;
+}

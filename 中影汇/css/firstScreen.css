@@ -1,0 +1,132 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+img {
+    vertical-align: top
+}
+
+.section01 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.section01 .inner {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    overflow: hidden;
+    position: relative;
+}
+
+.section01 .inner .imgs {
+    width: 1000%;
+    height: 100%;
+    position: relative;
+}
+.section01 .inner .imgs li {
+    float: left;
+    position: relative;
+    width: 9.9%;
+    height: 100%;
+}
+.section01 .inner li img{
+    width: 100%;
+    height: 100%;
+}
+
+.section01 .inner .circle {
+    width: 200px;
+    height: 14px;
+    position: absolute;
+    bottom: 15px;
+    left: 50%;
+    margin-left: -100px;
+    text-align: center;
+    cursor: pointer;
+}
+.section01 .inner .circle b {
+    display: inline-block;
+    width: 50px;
+    height: 5px;
+    background-color: #fff;
+    margin: 3px;
+}
+.section01 .inner .circle b:hover{
+    background: #da2c30!important;
+}
+.current {
+    background: #da2c30!important;
+}
+.section01 .bak-mask{
+    position: absolute;
+    width: 758px;
+    height: 240px;
+    top: 35%;
+    left: -430px;
+    margin-left: 54%;
+    z-index: 2;
+    transition: all 0.5s linear 0s;
+}
+.section01 .bak-mask img{
+    position: absolute;
+    width: 100%;
+    height: auto;
+    opacity: 0;
+}
+
+@media screen and (max-width: 800px){
+    .section01 .bak-mask{
+        position: absolute;
+        width: 300px;
+        height: 95px;
+        top: 45%;
+        left: -175px;
+        margin-left: 54%;
+        z-index: 2;
+        transition: all 0.5s linear 0s;
+    }
+    .section01 .bak-mask img{
+        position: absolute;
+        width: 100%;
+        height: auto;
+        opacity: 0;
+    }
+}
+.block2{
+    animation: move 0.8s linear forwards 0.5s;
+}
+@keyframes move {
+    0%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    100%{
+        transform: scale(1);
+        opacity: 1;
+    }
+}
+
+.none2{
+    animation: move2 0.8s linear forwards;
+}
+@keyframes move2 {
+    0%{
+        transform: scale(1);
+        opacity: 1;
+    }
+    100%{
+        transform: scale(0.5);
+        opacity: 0;
+    }
+}

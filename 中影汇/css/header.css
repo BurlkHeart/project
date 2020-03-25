@@ -1,0 +1,426 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.navBox{
+    width: 100%;
+    height: auto;
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+}
+/**/
+.navBox.now{
+    width: 100%;
+    height: auto!important;
+    position: fixed;
+    top: 0;
+    z-index: 999999;
+    background: rgba(0,0,0,0.5);
+}
+/*第一屏头部*/
+@media screen and (min-width: 1280px){
+    .navBox.now{
+        height: auto!important;
+        transition: all 0.5s linear 0s;
+    }
+    .navBox .container .head_rt{
+        width: 85%;
+        height: auto!important;
+        float: right;
+    }
+    .navBox.now .container{
+        height: 64.8px!important;
+        transition: all 0.5s linear 0s;
+    }
+    .navBox.now .container .head_rt .navbar-collapse.nn{
+        height: 64.8px!important;
+        transition: all 0.5s linear 0s;
+    }
+}
+
+@media screen and (min-width: 1000px){
+    .navBox .container{
+        width: 1200px;
+        height: auto!important;
+        margin: 0 auto;
+        padding: 80px 0 0 0;
+    }
+    /**/
+    .navBox.now .container{
+        width: 1200px;
+        height: auto!important;
+        margin: 0 auto;
+        padding: 0;
+    }
+    .navBox .container .logo{
+        width: 120px;
+        height: 70px;
+        float: left;
+    }
+    .navBox.now .container .logo{
+        width: 120px;
+        height: 50px;
+        float: left;
+        margin: 7.5px 0;
+        padding: 5px 0;
+        background: url("../Images/erjilogo_03.png") center center no-repeat;
+    }
+    .navBox .container .logo img{
+        width: 100%;
+        height: 100%;
+    }
+    .navBox.now .container .logo img{
+        display: none;
+    }
+    .navBox .container .head_rt .btn{
+        display: none;
+    }
+    .navBox .container .head_rt .head_login{
+        width: 100%;
+        height: 29.6px;
+    }
+    .navBox.now .container .head_rt .head_login{
+        width: 126px;
+        height: 35px;
+        float: right;
+        margin-top: 15px;
+        padding-left: 30px;
+    }
+    .navBox .container .head_rt .head_login a{
+        float: right;
+        font-size: 12px;
+        display: block;
+        width: 150px;
+        line-height: 30px;
+        background: #da2c30;
+        color: #fff;
+        text-align: center;
+        border-radius: 50px;
+        text-decoration: none;
+    }
+    .navBox.now .container .head_rt .head_login a{
+        float: right;
+        font-size: 12px;
+        display: block;
+        width: 96px;
+        height: 35px;
+        line-height: 35px;
+        background: #da2c30;
+        color: #fff;
+        transition: 0.5s all;
+        text-align: center;
+        border-radius: 50px;
+        text-decoration: none;
+    }
+    .navBox .container .head_rt .navbar-collapse{
+        width: auto;
+        display: block!important;
+        height: auto;
+        padding: 0;
+        overflow: visible!important;
+        border-top: 0;
+        box-shadow: none;
+        text-align: right;
+        margin-top: 10px;
+    }
+    .navBox.now .container .head_rt .navbar-collapse{
+        width: auto;
+        display: block!important;
+        height: 64.8px!important;
+        padding: 0;
+        overflow: visible!important;
+        border-top: 0;
+        box-shadow: none;
+        text-align: right;
+        margin-top: 0;
+    }
+    .navBox .container .head_rt .navbar-collapse .navber-nav{
+        padding-left: 0;
+        margin-bottom: 0;
+        list-style: none;
+    }
+    
+    .navBox .container .head_rt .navbar-collapse .navber-nav li{
+        height: 89px;
+        transition: all 0.5s linear 0s;
+    }
+    .navBox.now .container .head_rt .navbar-collapse .navber-nav li{
+        height: 64.8px;
+        transition: all 0.5s linear 0s;
+    }
+    .nav>li{
+        display: inline-block;
+        margin-left: 20px;
+        position: relative;
+        vertical-align: top;
+        transition: all 0.5s linear 0s;
+    }
+    .navBox .container .head_rt .navbar-collapse .navber-nav li a{
+        padding: 0 0 10px 0;
+        color: #fff!important;
+        font-size: 18px!important;
+        display: block;
+        background: none;
+    }
+    .navBox.now .container .head_rt .navbar-collapse .navber-nav li a{
+        padding: 0 8px;
+        line-height: 64.8px;
+        color: #fff!important;
+        font-size: 18px!important;
+        display: block;
+        background: none;
+    }
+    .navBox .container .head_rt .navbar-collapse .navber-nav li:nth-child(9) .head_tel{
+        font-size: 16px;
+        color: #da2c30;
+        font-weight: bold;
+        margin: 0;
+    }
+    .navBox.now .container .head_rt .navbar-collapse .navber-nav li:nth-child(9){
+        display: none;
+    }
+    .navBox .container .head_rt .navbar-collapse .navber-nav li:nth-child(9) .head_img{
+        width: 150px;
+        margin: 10px 0 0 0;
+        text-align: center;
+        float: right;
+    }
+    .navBox .container .head_rt .navbar-collapse .navber-nav li:nth-child(9) .head_img a{
+        margin: 0;
+        display: inline-block;
+        text-decoration: none;
+        padding: 0 5px;
+    }
+
+    .navBox .container .head_rt .navbar-collapse .navber-nav li a:hover{
+        color: #be1e21;
+        border-bottom: 2px solid #be1e21;
+    }
+    .navBox.now .container .head_rt .navbar-collapse .navber-nav li .nav_1:hover{
+        background: #be1e21!important;
+        border: none;
+        color: #fff!important;
+    }
+    .navBox .container .head_rt .navbar-collapse .navber-nav li:nth-child(9) .head_img a:hover{
+        border: none;
+    }
+    .head_img a:hover .dypt,.head_img a:hover .flhc{
+       position: relative;
+       top: 5px;
+        color: #be1e21!important;
+    }
+}
+@media screen and (max-width: 1279px){
+    .navBox .container{
+        height: auto!important;
+        width: 90%;
+        transition: all 0.5s linear 0s;
+    }
+    .navBox.now .container{
+        height: auto!important;
+        width: 90%;
+        transition: all 0.5s linear 0s;
+    }
+}
+
+@media screen and (min-width: 1141px) and (max-width: 1279px){
+    .navBox.now{
+        height: 114.8px!important;
+    }
+    .navBox.now .container{
+        height: 114.8px!important;
+        width: 90%;
+        transition: all 0.5s linear 0s;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1140px){
+    .navBox.now{
+        height: 179.6px!important;
+    }
+    .navBox.now .container{
+        height: 179.6px!important;
+        width: 90%;
+        transition: all 0.5s linear 0s;
+    }
+}
+@media screen and (min-width: 1000px) and (max-width: 1279px){
+    .navBox .container .head_rt{
+        height: auto!important;
+        width: 85%;
+        float: right;
+        transition: all 0.5s linear 0s;
+    }
+
+    .navBox.now .container .head_rt{
+        height: auto!important;
+        width: 85%;
+        float: right;
+        transition: all 0.5s linear 0s;
+    }
+    .navBox.now .container .head_rt .head_login{
+        float: right;
+        width: 100%;
+    }
+    .navBox .container .head_rt .navbar-collapse{
+        width: 100%;
+    }
+}
+@media screen and (max-width: 999px){
+    .navBox .container{
+        padding: 40px 0 0 5%;
+        margin: 0;
+        width: 100%;
+        height: auto!important;
+    }
+    .navBox.now .container{
+        height: auto!important;
+        padding: 0 0 0 5%;
+        margin: 0;
+        width: 100%;
+    }
+    .navBox .container .head_rt .navbar-collapse .navber-nav li:nth-child(9){
+        display: none;
+    }
+    .navBox .container .head_rt{
+        width: 105px;
+        height: 36px;
+        float: right;
+    }
+    .navBox.now .container .head_rt{
+        width: 105px;
+        height: 40px;
+        float: right;
+    }
+    .navBox.now .container .logo{
+        width: 120px;
+        height: 50px;
+        float: left;
+        margin-top: 7.5px;
+        padding: 5px 0;
+        background: url("../Images/erjilogo_03.png") center center no-repeat;
+    }
+    .navBox.now .container .logo img{
+        display: none;
+    }
+    .navBox .container .head_rt .btn{
+        width: 30px;
+        height: 22px;
+        border: 1px solid white;
+        border-radius: 15%;
+        float: right;
+        margin: 15px 10px 0 0;
+        background: none;
+        padding: 3px;
+        outline: none;
+    }
+    .navBox.now .container .head_rt .btn{
+        margin: 19px 10px 0 0;
+    }
+    .navBox .container .head_rt .btn span{
+        display: block;
+        width: 22px;
+        height: 2px;
+        margin: 4px 0 0 0;
+        background-color: #fff;
+    }
+    .navBox .container .head_rt .btn span:nth-child(1){
+        vertical-align: top;
+        margin: 0;
+    }
+    .navBox .container .head_rt .head_login{
+        width: 55px;
+        margin-top: 16px;
+        float: left;
+        transition: all 0.5s linear 0s;
+    }
+    .navBox.now .container .head_rt .head_login{
+        width: 55px;
+        margin-top: 20px;
+        float: left;
+        transition: all 0.5s linear 0s;
+    }
+    .navBox .container .head_rt .head_login a{
+        width: 55px;
+        line-height: 20px;
+        font-size: 10px;
+        display: block;
+        background: #da2c30;
+        color: #fff;
+        text-align: center;
+        border-radius: 50px;
+        text-decoration: none;
+        transition: all 0.5s linear 0s;
+    }
+    .navBox .container .head_rt .navbar-collapse .navber-nav li{
+        width: 80px;
+        height: 31px;
+        padding: 5px 0;
+        text-align: center;
+        border-bottom: 1px solid #fff;
+    }
+    .navBox.now .container .head_rt .navbar-collapse .navber-nav li a{
+        background: none;
+    }
+    .navBox .container .head_rt .navbar-collapse .navber-nav li a:hover{
+        background: #d1000e!important;
+    }
+    .navBox .container .head_rt .navbar-collapse .navber-nav li a{
+        padding: 0 5px;
+        font-size: 14px;
+        color: #fff;
+        background: none;
+    }
+    .navBox .container .head_rt .navbar-collapse{
+        width: auto;
+        height: 0;
+        /*position: absolute;*/
+        /*top: 78px;*/
+        /*right: 0;*/
+        float: right;
+        padding: 0;
+        overflow: hidden;
+    }
+    .navBox .container .head_rt .navbar-collapse .navber-nav{
+        width: 100px;
+        height: 268px;
+        padding: 10px;
+        background: #000;
+        box-shadow: 0 0 10px #000;
+    }
+    .navBox .container .head_rt .navbar-collapse{
+        border: none;
+        box-shadow: none;
+    }
+}
+
+
+.block{
+    animation: play 0.25s linear forwards;
+}
+@keyframes play {
+    0%{
+        height: 0;
+    }
+    100%{
+        height: 268px;
+    }
+}
+.none{
+    animation: play2 0.25s linear forwards;
+}
+@keyframes play2 {
+    0%{
+        height: 268px;
+    }
+    100%{
+        height: 0;
+    }
+}

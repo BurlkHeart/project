@@ -1,0 +1,138 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+ul{
+    list-style: none;
+}
+@media screen and (min-width: 768px){
+    .side{
+        position: absolute;
+        right: 0;
+        top: 30%;
+        z-index: 3333;
+        width: 54px;
+        height: auto;
+    }
+    .side .cha{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .side{
+        position: absolute;
+        right: 0;
+        bottom: 0;
+        z-index: 3333;
+        width: 54px;
+        height: auto;
+    }
+    .side .cha{
+        position: absolute;
+        top: -10px;
+        left: -10px;
+        display: block;
+        width: 20px;
+        height: 20px;
+        background: #dddddd;
+        border-radius: 20px;
+        font-size: 25px;
+        line-height: 20px;
+        text-align: center;
+        z-index: 100;
+    }
+}
+.side .weixin{
+    width: 54px;
+    height: 54px;
+    background: rgba(0,0,0,.5);
+    border-bottom: 1px solid #000;
+}
+.side .weixin:hover .wx_main{
+    background: #000;
+    opacity: 1;
+}
+.side .weixin .wx_main{
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+}
+.side .weixin .wx_main img{
+    margin: 17px 15px 0 15px;
+}
+.side .weixin .erweima{
+    position: absolute;
+    right: 54px;
+    top: 0;
+    padding: 15px 20px;
+    width: 115px;
+    background-color: #000;
+    display: none;
+    z-index: 3;
+}
+.side .weixin .erweima p{
+    color: #fff;
+    font-size: 14px;
+    padding-bottom: 10px;
+    margin: 0;
+}
+.side .weixin .erweima img{
+    display: inline-block;
+    width: 100%;
+}
+.side ul{
+    margin: 0;
+}
+
+.side ul li{
+    width: 54px;
+    height: 54px;
+    background: rgba(0,0,0,.5);
+}
+.side ul li a{
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.side ul li .sideBox{
+    opacity: 0.5;
+    width: 100%;
+    height: 100%;
+}
+.side ul li .sideBox span{
+    color: #fff;
+    font-size: 14px;
+    text-decoration: none;
+    line-height: 54px;
+}
+.side ul li a{
+    text-decoration: none;
+}
+.side ul li .sideBox:hover{
+    background: #000;
+}
+.side ul li:nth-child(3) .sideBox:hover{
+    background: #000;
+    opacity: 1;
+}
+.side ul li:nth-child(1) .sideBox,.side ul li:nth-child(2) .sideBox{
+    width: 162px;
+}
+.side ul li .sideBox img{
+    margin: 17px 15px 0 15px;
+}
+.side ul li:nth-child(2),.side ul li:nth-child(3){
+    border-top: 1px solid rgb(30,30,30);
+}
+
+/*动画效果*/
+.leftSlide{
+    transform: translateX(-108px);
+    transition: transform 0.2s linear 0.15s;
+}
+
+.rightSlide{
+    transform: translateX(0);
+    transition: all 0.2s linear 0.1s;
+}

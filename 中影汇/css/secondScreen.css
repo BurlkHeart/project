@@ -1,0 +1,211 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+.section02{
+    background: url("../Images/02.jpg") center center no-repeat;
+    background-size: 100% 100%;
+}
+@media screen and (min-width: 1280px){
+    .section02 .about_main{
+        width: 1200px;
+        height: auto;
+        margin: 0 auto;
+        transition: all 0.5s linear 0s;
+    }
+}
+@media screen and (max-width: 1279px){
+    .section02 .about_main{
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        transition: all 0.5s linear 0s;
+    }
+}
+@media screen and (min-width: 768px){
+    .section02 .about_main .about_lf{
+        width: 50%;
+        float: left;
+    }
+    .section02 .about_main .about_lf .t2{
+        display: block;
+        animation: plays1 0.7s linear 0.4s forwards;
+    }
+    @keyframes plays1 {
+        0%{
+            opacity: 0;
+            transform: translateY(-20px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+    .section02 .about_main .about_rt{
+        width: 50%;
+        float: left;
+        display: block;
+        animation: plays2 0.7s linear forwards 0.1s;
+    }
+    @keyframes plays2 {
+        0%{
+            opacity: 0;
+            transform: translateX(20px);
+        }
+        100%{
+            opacity: 1;
+            transform: translateX(0);
+        }
+    }
+}
+@media screen and (max-width: 767px){
+    .section02 .about_main .about_lf{
+        width: 100%;
+    }
+    .section02 .about_main .about_lf .t2{
+        display: none;
+    }
+    .section02 .about_main .about_rt{
+        display: none;
+    }
+}
+
+.section02 .about_main .about_lf{
+    padding: 60px 15px 0 15px;
+}
+.section02 .about_main .about_lf .t1{
+    opacity: 0;
+}
+.section02 .about_main .about_rt{
+    padding: 0 15px;
+    opacity: 0;
+}
+.section02 .about_main .about_lf .about_lf_one{
+    margin-top: 6%;
+}
+
+.section02 .about_main .about_lf .about_lf_one .about_tl_china{
+    font-size: 24px;
+    color: #ffffff;
+    margin: 0;
+}
+.section02 .about_main .about_lf .about_lf_one span{
+    display: block;
+    width: 145px;
+    height: 5px;
+    background: #fff;
+}
+.section02 .about_main .about_lf .about_text{
+    margin: 30px 0 0 0;
+    font-size: 14px;
+    line-height: 25px;
+    text-indent: 2em;
+    color: #fff;
+}
+
+.section02 .about_main .about_rt .about_rt_main{
+    margin-left: 20%;
+    height: 731px;
+    border-left: 3px solid #fff;
+}
+.section02 .about_main .about_rt .about_rt_main ul{
+    padding-top: 80px;
+    list-style: none;
+}
+.section02 .about_main .about_rt .about_rt_main ul li{
+    width: 110%;
+    height: 192px;
+    padding: 10% 0;
+    position: relative;
+    margin-left: -11%;
+    display: block;
+    vertical-align: bottom;
+}
+.section02 .about_main .about_rt .about_rt_main img{
+    width: 20%;
+    height: auto;
+    border-radius: 50%;
+    float: left;
+    vertical-align: middle;
+}
+.section02 .about_main .about_rt .about_rt_main ul li p{
+    font-size: 18px;
+    padding: 5px 0;
+    margin: 0;
+}
+
+.section02 .about_main .about_rt .about_rt_main ul li .about_rt_main_text{
+    margin-left: 5%;
+    width: 75%;
+    color: #fff;
+    font-size: 14px;
+    padding-top: 5px;
+    float: left;
+}
+
+.section02 .qiye{
+    position: absolute;
+    bottom: 50px;
+    width: 100%;
+    z-index: 5;
+    text-align: center;
+}
+.section02 .qiye a{
+    display: inline-block;
+    width: 160px;
+    text-align: center;
+    font-size: 18px;
+    color: #da2c30;
+    line-height: 40px;
+    background: #ffffff;
+    border-radius: 10px;
+    text-decoration: none;
+}
+.section02 .qiye a:hover{
+    color: #ffffff;
+    background: #da2c30;
+}
+/*第二屏动画效果*/
+.now1 {
+    animation: plays3 0.7s linear forwards;
+}
+
+@keyframes plays3 {
+    0%{
+        opacity: 0;
+        transform: translateX(20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+.now3{
+    animation: plays4 0.4s linear forwards;
+}
+.now4{
+    animation: plays4 0.4s linear forwards 0.3s;
+}
+.now5{
+    animation: plays4 0.3s linear forwards 0.4s;
+}
+@keyframes plays4 {
+    0%{
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+    100%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.now2 {
+    opacity: 0!important;
+}
